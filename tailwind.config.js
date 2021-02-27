@@ -3,6 +3,7 @@ module.exports = {
     darkMode: false,
     theme: {
 			colors: {
+				
                 pink: 'var(--pink)',
                 yellow: 'var(--yellow)',
                 dark: 'var(--dark)',

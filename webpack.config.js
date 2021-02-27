@@ -17,20 +17,24 @@ module.exports = {
                     'postcss-loader'
                 ]
             },
+			{
+        		test: /\.(png|svg|jpg|jpeg|gif)$/,
+     			type: 'asset/resource',
+      		},
             {
-                test: /\.jsx$/,
+                test: /\.jsx?$/,
                 use: {
                     loader: 'babel-loader',
                     options: {
                         presets: [ '@babel/preset-react' ]
-                    }
-                }
-            }
-        ]
-    },
+                    },
+                },
+            },
+        ],
+		},
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html'
         })
-    ]
-};
+    ],
+}
