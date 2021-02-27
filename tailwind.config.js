@@ -8,8 +8,8 @@ module.exports = {
                 dark: 'var(--dark)',
                 card: 'var(--card)',
                 gradientColorStops: 'var(--gradient)',
-								white: 'var(--white)',
-								borderGray: 'var(--bordergray)'
+				white: 'var(--white)',
+				borderGray: 'var(--bordergray)'
 			},
 
     extend: {},

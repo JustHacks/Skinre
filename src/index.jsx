@@ -26,7 +26,7 @@ const App = (props) => {
                 </div>
 
 				<div className="cards w-full max-w-40 p-6 bg-card ">
-                    <div className="card"
+                    <div className="card">
 					    <div className="m-auto p-2 px-4 border-borderGray border-2 text-borderGray text-center w-max bg-transparent cursor-pointer">Features</div>
                     </div>
 				</div>

@@ -9,8 +9,8 @@
     --dark: #020212;
     --card: #1B1B27;
     --gradient: linear-gradient(to right,#EC709A,#FFE497);
-		--white: #FFFFFF;
-		--bordergray: rgb(223, 216, 216);
+	--white: #FFFFFF;
+	--bordergray: #dfd8d8;
 }
 
 body, html {
