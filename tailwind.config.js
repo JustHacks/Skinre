@@ -3,15 +3,11 @@ module.exports = {
     darkMode: false,
     theme: {
 			colors: {
-				gray: colors.blueGray,
+				dark: colors.#020212,
 				blue: colors.lightBlue
 			},
       extend: {},
     },
     variants: {},
     plugins: [],
-		use: {
-  loader: 'babel-loader',
-  options: { presets: [ '@babel/preset-react' ] }
-}
 };
