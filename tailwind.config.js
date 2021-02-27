@@ -3,10 +3,16 @@ module.exports = {
     darkMode: false,
     theme: {
 			colors: {
-				dark: colors.#020212,
-				blue: colors.lightBlue
+                pink: 'var(--pink)',
+                yellow: 'var(--yellow)',
+                dark: 'var(--dark)',
+                card: 'var(--card)',
+                gradientColorStops: 'var(--gradient)',
+								white: 'var(--white)',
+								borderGray: 'var(--bordergray)'
 			},
-      extend: {},
+
+    extend: {},
     },
     variants: {},
     plugins: [],
