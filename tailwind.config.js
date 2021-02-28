@@ -11,7 +11,7 @@ module.exports = {
                 gradientColorStops: 'var(--gradient)',
 				white: 'var(--white)',
 				borderGray: 'var(--bordergray)',
-				blueGray: 'var(--blueGray)'
+				blueGray: 'var(--blueGray)',
 			},
 
     extend: {},

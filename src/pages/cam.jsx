@@ -71,20 +71,25 @@ export const Cam = (props) => {
             }
       }
     }
-	return (
-		<main className="w-full h-screen bg-dark text-white scrollbar-thin scrollbar-track-white scrollbar-thumb-bluegray">
-			  <div><h1 className="text-center text-4xl ">Cam</h1></div>
-					<div className="card w-">
-						<div id="webcam-container"></div>
-					<div className="webcam-container">
-   					 <div className="acne" id="acne">
- 					 	    <img className="acnepic" id="acnepic"/></div>
-  					<canvas id="canvas"></canvas>
-							<div id="label-container"></div>
-						</div>
-					</div>
+		return( 
 
-			<button className="statbutton" type="button" onclick="init()">Start</button>
+	<main className="w-full bg-dark text-white scrollbar-thin scrollbar-track-white scrollbar-thumb-bluegray">
+		<div className="flex flex-col my-14 items-center justify-center p-4">
+            <h1 className="text-4xl m-6 text-white font-bold text-center lg:text-6xl">Acne Detector</h1>
+
+                <div className="card bg-card w-full h-60 max-w-6xl p-2 m-8">
+					<div id="webcam-container"></div>
+					<div className="webcam-container w-full h-auto">
+   					    <div className="acne" id="acne">
+ 					 	    <img className="acnepic" id="acnepic"/>
+                        </div>
+  					    <canvas id="canvas"></canvas>
+						<div id="label-container"></div>
+					</div>
+				</div>
+
+			<button className="statbutton mt-8 p-2 px-4 border-borderGray border-2 text-borderGray text-center bg-transparent cursor-pointer hover:border-pink hover:text-pink" type="button" onclick="init()">Start</button>
+        </div>
 
 	</main>
 	);
