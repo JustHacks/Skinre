@@ -18,3 +18,7 @@
 body, html {
 	overflow-x: hidden;
 }
+.icon:hover{
+    transition: .2s;
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+}

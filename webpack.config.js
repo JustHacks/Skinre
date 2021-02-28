@@ -37,4 +37,14 @@ module.exports = {
             template: './src/index.html'
         })
     ],
+    devServer: {
+        contentBase: resolve(__dirname, 'dist'),
+        port: 9000,
+        host: "0.0.0.0",
+        allowedHosts: [
+            ".repl.it",
+            ".repl.co",
+            ".repl.run"
+        ]
+    }
 }
