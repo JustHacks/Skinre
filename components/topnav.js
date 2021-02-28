@@ -7,7 +7,7 @@ function Topnav()  {
         <div className="logo p-4">Logo</div>
         <ul className="text-gray-50 flex justify-end flex-wrap">
 	      	<a href="/" className="p-4 text-white cursor-pointer underline-none hover:underline">Home</a>
-          <li className="p-4 cursor-pointer hover:underline">Cam</li>
+          <a href="./cam.jsx" className="p-4 underline-none cursor-pointer hover:underline">Cam</a>
     	    <li className="p-4 cursor-pointer hover:underline">ChatBot</li>
     	    <li className="p-4 cursor-pointer hover:underline">Products</li>
         </ul>

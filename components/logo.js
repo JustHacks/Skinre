@@ -4,7 +4,7 @@ import logo from '../img/logo.png';
 function Logo() {
 	return (
 		<div className="w-full bg-gradient-to-r from-pink to-yellow">
-			<img className="m-auto" src={logo} alt="logo"/>
+			<img className="m-auto p-4" src={logo} alt="logo"/>
 		</div>
 	);
 }
