@@ -10,11 +10,14 @@ module.exports = {
                 card: 'var(--card)',
                 gradientColorStops: 'var(--gradient)',
 				white: 'var(--white)',
-				borderGray: 'var(--bordergray)'
+				borderGray: 'var(--bordergray)',
+				blueGray: 'var(--blueGray)'
 			},
 
     extend: {},
     },
     variants: {},
-    plugins: [],
+    plugins: [
+			require('tailwind-scrollbar')
+		],
 };

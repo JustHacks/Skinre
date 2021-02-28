@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root{
     --pink: #EC709A;
@@ -11,6 +12,7 @@
     --gradient: linear-gradient(to right,#EC709A,#FFE497);
 	--white: #FFFFFF;
 	--bordergray: #dfd8d8;
+	--blueGray: #1E293B;
 }
 
 body, html {

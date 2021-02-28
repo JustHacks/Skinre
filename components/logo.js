@@ -2,10 +2,9 @@ import React from 'react';
 import logo from '../img/logo.png';
 
 function Logo() {
-	console.log(house);
 	return (
-		<div className="Logo">
-			<img src={logo} alt="logo"/>
+		<div className="w-full bg-gradient-to-r from-pink to-yellow">
+			<img className="m-auto" src={logo} alt="logo"/>
 		</div>
 	);
 }
