@@ -73,8 +73,8 @@ export const Cam = (props) => {
     }
 	return (
 		<main className="w-full h-screen bg-dark text-white scrollbar-thin scrollbar-track-white scrollbar-thumb-bluegray">
-			  <div><h1 className="">Cam</h1></div>
-					<div className="card">
+			  <div><h1 className="text-center text-4xl ">Cam</h1></div>
+					<div className="card w-">
 						<div id="webcam-container"></div>
 					<div className="webcam-container">
    					 <div className="acne" id="acne">
