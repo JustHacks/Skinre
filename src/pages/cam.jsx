@@ -5,8 +5,6 @@ import '../style.css';
 import dots from '../../img/dots.svg';
 import Footer from '../../components/footer.js'
 import { Helmet } from 'react-helmet';
-import Footer from '../../components/footer.js'
-import '../style.css';
 
 const TITLE = "Cam || Skinre"
 export const Cam = (props) => {
@@ -79,11 +77,12 @@ export const Cam = (props) => {
       }
     }
 		return( 
-			<Helmet>
-				<title>{ TITLE }</title>
-			</Helmet>
+
 
 	<main className="bg-dark text-white">
+				<Helmet>
+				<title>{ TITLE }</title>
+			</Helmet>
         
 		<div className="flex flex-col my-14 items-center justify-center p-4">
             <h1 className="text-4xl m-6 text-white font-bold text-center lg:text-6xl">Acne Detector</h1>

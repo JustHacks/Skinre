@@ -2,7 +2,9 @@ import React from 'react';
 import TopNav from '../../components/topnav.js';
 import Footer from '../../components/footer.js';
 import dots from '../../img/dots.svg';
+import { Helmet } from 'react-helmet';
 
+const TITLE = "Products || Skinre"
 
 import one from '../../img/black/one.png';
 import two from '../../img/black/two.png';
@@ -21,6 +23,9 @@ export function Products() {
 	return (
 		<main className="bg-dark text-white">
       {/* Products page */}
+			<Helmet>
+			<title>{ TITLE }</title>
+			</Helmet>
 
         <h1 className="text-4xl mt-12 m-6 font-bold text-center lg:text-6xl text-white">Products!</h1>
 
