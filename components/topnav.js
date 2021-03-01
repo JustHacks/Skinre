@@ -16,7 +16,6 @@ const TopNav = () => {
         <ul className="text-gray-50 flex justify-end flex-wrap">
 	      	<Link to="/" className="p-4 text-white cursor-pointer underline-none hover:underline">Home</Link>
           <Link to="/cam" className="p-4 underline-none cursor-pointer hover:underline">Cam</Link>
-    	    <Link to="/chatbot" className="p-4 cursor-pointer hover:underline">ChatBot</Link>
     	    <Link to="/products" className="p-4 cursor-pointer hover:underline">Products</Link>
         </ul>
     	</div>

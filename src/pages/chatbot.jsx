@@ -5,7 +5,7 @@ import '../style.css';
 
 export function ChatBot() {
 	return (
-		<main className="w-full h-screen bg-dark text-white scrollbar-thin scrollbar-track-white scrollbar-thumb-blueGray">
+		<main className="bg-dark">
       {/* ChatBot page*/}
 		</main>
 	);

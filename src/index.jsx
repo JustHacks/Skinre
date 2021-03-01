@@ -19,7 +19,7 @@ import Footer from '../components/footer.js';
 const App = (props) => {
     return (
       <Router>
-        <main className="bg-dark scrollbar-thin scrollbar-track-white scrollbar-thumb-bluegray">
+        <main className="bg-dark text-white">
           <div className="header w-full flex justify-evenly bg-opacity-10 bg-gradient-to-r from-pink to-yellow text-white">
             </div>
             <TopNav />
@@ -29,8 +29,9 @@ const App = (props) => {
               <Route path="/chatbot" component={ChatBot}/>
               <Route path="/products" component={Products}/>
             </Switch>
-            <Footer />
+            
         </main>
+        
       </Router>
     );
 };
