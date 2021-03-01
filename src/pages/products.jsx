@@ -4,7 +4,7 @@ import Footer from '../../components/footer.js';
 import dots from '../../img/dots.svg';
 import { Helmet } from 'react-helmet';
 
-const TITLE = "Products || Skinre"
+const TITLE = "Skinre | Products"
 
 import one from '../../img/black/one.png';
 import two from '../../img/black/two.png';

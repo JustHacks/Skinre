@@ -8,7 +8,7 @@ import { Helmet } from 'react-helmet';
 import Footer from '../../components/footer.js'
 import '../style.css';
 
-const TITLE = "Home || Skinre"
+const TITLE = "Skinre | Home"
 
 export function Home() {
   return (

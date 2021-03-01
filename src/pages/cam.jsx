@@ -6,7 +6,7 @@ import dots from '../../img/dots.svg';
 import Footer from '../../components/footer.js'
 import { Helmet } from 'react-helmet';
 
-const TITLE = "Cam || Skinre"
+const TITLE = "Skinre | Cam"
 export const Cam = (props) => {
 	    // More API functions here:
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
