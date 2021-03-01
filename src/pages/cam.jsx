@@ -6,7 +6,7 @@ import dots from '../../img/dots.svg';
 import Footer from '../../components/footer.js'
 import { Helmet } from 'react-helmet';
 
-const TITLE = "Skinre | Cam"
+const TITLE = "Skinre | Cam";
 export const Cam = (props) => {
 	    // More API functions here:
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
@@ -84,7 +84,7 @@ export const Cam = (props) => {
 				<title>{ TITLE }</title>
 			</Helmet>
         
-		<div className="flex flex-col my-14 items-center justify-center p-4">
+		<div className="flex flex-col mt-14 items-center justify-center p-4">
             <h1 className="text-4xl m-6 text-white font-bold text-center lg:text-6xl">Acne Detector</h1>
             <img className="p-4 select-none absolute right-0 top-20 fill-current text-pink max-w-xs" src={dots} alt="dots"/>
 
@@ -99,7 +99,7 @@ export const Cam = (props) => {
 					</div>
 				</div>
 
-			<button className="statbutton mt-8 p-2 px-4 border-borderGray border-2 text-borderGray text-center bg-transparent cursor-pointer hover:border-pink hover:text-pink" type="button" onClick={init}>Start</button>
+			<button className="statbutton mt-8 p-2 px-4 border-borderGray border-2 text-borderGray text-center bg-transparent cursor-pointer hover:border-pink hover:text-pink mb-52" type="button" onClick={init}>Start</button>
         </div>
 			<Footer />
 	</main>

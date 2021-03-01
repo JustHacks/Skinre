@@ -7,7 +7,7 @@ import discord from '../img/discord.svg';
 
 function Footer()  {
 	return (
-		<div className="footer flex flex-col items-center text-white bg-gradient-to-r from-pink to-yellow">
+		<div className="footer flex flex-col items-center text-white bg-gradient-to-r from-pink to-yellow m-0">
             <div className="p-2">
 			<h3 className="text-white text-xl text-center font-semibold p-4">Follow us on</h3>
 			    <div className="w-full flex items-center justify-center">

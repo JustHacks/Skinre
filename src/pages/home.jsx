@@ -12,7 +12,7 @@ const TITLE = "Skinre | Home"
 
 export function Home() {
   return (
-    <div className="home">
+    <div className="home bg-dark text-white">
 		<Helmet>
 		<title>{ TITLE }</title>
 		</Helmet>
