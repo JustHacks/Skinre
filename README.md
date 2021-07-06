@@ -1,11 +1,10 @@
 # Skinre ✨
-
-![image](https://user-images.githubusercontent.com/47777673/109690975-eb777d00-7bac-11eb-8cb0-77a351ec04db.png)
-
  
 ## Inspiration
 
 Nowadays the internet is used for everything since is an affordable way to get information. This is why we decided to build Skinre, millions of people around the world faced skin problems (acne) and don't know how to resolve them. Like statics say people rather have a phone or computer in their hands rather than food or money itself.  So why don't create affordable acne learning, interactive and organizing system for users to understand what their skin is facing and how to deal with it on a daily basis.
+
+![skinRe](https://user-images.githubusercontent.com/47777673/124596043-67e1db80-de7f-11eb-8398-a20100b66dce.png)
 
 ## What it does
 
